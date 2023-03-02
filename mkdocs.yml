@@ -1,0 +1,23 @@
+site_name: Elizabeth_Khan_IDD_Portfolio
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+copyright: 'Copyright &copy; 2023 Elizabeth Khan'
+nav:
+  - Portfolio: index.md
+plugins:
+  - glightbox
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: True
